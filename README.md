@@ -9,9 +9,14 @@ Prueba técnica para implementar un especial interactivo con una apertura, un ma
 - JavaScript vanilla
 - SVG cargado dinámicamente mediante `<object>` para las líneas y `<img>` para las capas visuales.
 - Sin frameworks de frontend.
-- Sin archivos minificados.
 
-## Cómo ejecutar
+## Cómo Visualizar, ejecutar
+
+Demo publicada para visualización:
+https://kmcarvajal.github.io/prueba-mapa-migracion/
+
+Repositorio para descargar del proyecto:
+https://github.com/kmcarvajal/prueba-mapa-migracion
 
 Los SVG del mapa se cargan como recursos externos. Para evitar bloqueos del navegador por rutas locales, se recomienda abrir el proyecto con un servidor local desde la carpeta raíz del proyecto:
 
@@ -53,9 +58,6 @@ También puede usarse la extensión **Live Server** de VS Code.
 │               └── 6- TESTIMONIOS/
 └── docs/
     ├── bitacora.md
-    ├── secuencia-scroll.md
-    ├── revision-visual-xd.md
-    ├── activos-originales.md
     └── adobe-xd-export.css
 ```
 
@@ -68,36 +70,11 @@ La experiencia sigue esta secuencia por cada grupo de capas:
 1. El mapa base permanece visible.
 2. Entra la capa de líneas o marcadores iniciales.
 3. Aparece el recuadro informativo de la etapa.
-4. Aparecen datos, círculos, etiquetas o elementos complementarios por opacidad.
+4. Aparecen datos, círculos, elementos complementarios por opacidad.
 5. Al avanzar el scroll se cambia a la siguiente etapa.
-
-Los SVG originales se conservaron sin minificar ni optimizar para mantener la fidelidad con el diseño suministrado.
 
 ## Documentación incluida
 
-- `docs/bitacora.md`: proceso, decisiones técnicas, dificultades, ajustes y mejoras propuestas.
-- `docs/secuencia-scroll.md`: explicación de la lógica de capas y animación.
-- `docs/revision-visual-xd.md`: revisión de estilos contra los tokens exportados desde Adobe XD.
-- `docs/activos-originales.md`: referencia de los activos utilizados.
+- `docs/bitacora.md`: proceso, decisiones técnicas, dificultades y mejoras propuestas.
 - `docs/adobe-xd-export.css`: copia del CSS exportado desde Adobe XD.
 
-## Entrega en GitHub
-
-1. Crear un repositorio en GitHub.
-2. Subir todos los archivos de esta carpeta, incluyendo `assets/`, `css/`, `js/` y `docs/`.
-3. Verificar que `index.html` quede en la raíz del repositorio.
-4. Activar GitHub Pages desde **Settings > Pages** usando la rama `main` y la carpeta `/root`.
-5. Probar la URL publicada y revisar que el mapa cargue los SVG correctamente.
-
-## Comandos sugeridos
-
-```bash
-git init
-git add .
-git commit -m "Entrega prueba tecnica mapa migracion"
-git branch -M main
-git remote add origin https://github.com/USUARIO/prueba-mapa-migracion.git
-git push -u origin main
-```
-
-Reemplazar `USUARIO` por el usuario real de GitHub y ajustar el nombre del repositorio si se usa otro.
