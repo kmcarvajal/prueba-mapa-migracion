@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No volver | Mapa migratorio</title>
+  <meta name="description" content="Especial interactivo sobre la migración de colombianos al exterior.">
+  <link rel="stylesheet" href="https://use.typekit.net/fil3rtm.css">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <link rel="stylesheet" href="css/xd-reference.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Encabezado del especial">
+    <div class="header-inner">
+      <button class="menu-button" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <strong class="brand">EL TIEMPO</strong>
+      <span class="divider" aria-hidden="true"></span>
+      <span class="special-label">ESPECIALES</span>
+      <nav class="header-nav" aria-label="Navegación secundaria">
+        <a href="#mapa">Especial</a>
+        <a href="#nota">Nota</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" role="img" aria-label="Avión y título No volver"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Especial multimedia</p>
+        <h1 id="hero-title">No volver</h1>
+        <p>Un recorrido visual por las rutas, retornos y remesas de la migración colombiana.</p>
+        <a class="scroll-cta" href="#mapa">Iniciar recorrido</a>
+      </div>
+    </section>
+
+    <section id="mapa" class="map-story" aria-label="Mapa interactivo basado en scroll">
+      <div class="map-sticky">
+        <div id="mapCanvas" class="map-canvas" aria-live="polite">
+          <img id="scrollHint" class="scroll-hint" src="assets/svg/SVGs Prueba/raton-scroll.svg" alt="Desliza para avanzar">
+          <div id="baseLayer" class="svg-layer base-layer"></div>
+          <div id="storyLayers" class="story-layers"></div>
+        </div>
+      </div>
+      <div class="scroll-spacer" aria-hidden="true"></div>
+    </section>
+
+    <section id="nota" class="article-section" aria-labelledby="article-title">
+      <div class="article-layout">
+        <aside class="article-index" aria-hidden="true">
+          <h2>MÁS DE MIL PERSONAS SE VAN CADA DÍA DE COLOMBIA PARA NO VOLVER</h2>
+          <div class="article-dots"><span class="active"></span><span></span><span></span><span></span><span></span><span></span></div>
+          <p>Seleccione para ver más</p>
+        </aside>
+        <article class="article-copy">
+          <p class="article-eyebrow">Análisis</p>
+          <h2 id="article-title">El número de quienes se fueron durante siete años se acerca a la cantidad de personas que llegaron en la ola migratoria desde Venezuela.</h2>
+          <p>Cada día vuelan de Colombia 1.244 personas, para no volver. Así lo muestran tanto los registros de la Aeronáutica Civil como de Migración Colombia, en los que se mantiene la histórica diferencia entre las personas que salen del país frente a las que entran.</p>
+          <p>De esta manera se manifiestan, en los hechos, los resultados de la encuesta Consultoría Interdisciplinaria en Desarrollo (CID) de la firma Gallup. En enero del 2023, el 47 por ciento de los consultados, en el país, respondió que emigraría de contar con los recursos necesarios; en junio, el 49 por ciento. Vale aclarar que, en ese indicador, Colombia quedó en el primer lugar entre los 13 países donde se desarrolla la investigación. Y en septiembre la respuesta fue del 40 por ciento, detrás de República Dominicana, Ecuador, Honduras y Nicaragua.</p>
+          <p>Durante el 2019, en medio de la normalidad previa a la pandemia, cada mes se registraba la salida del país, por los aeropuertos, de 670.000 personas en promedio, y la llegada de un poco más de 650.000. De esta manera, cada mes unas 17.000 personas no regresaban.</p>
+          <p>Luego vino el bache por los cierres en el mundo que trajo el covid, con flujos mínimos de viajeros. Pero desde septiembre del 2020 se comenzaron a recuperar gradualmente esos movimientos de gente desde y hacia Colombia, y para septiembre del 2021 ya habían alcanzado los niveles normales.</p>
+          <p>Luego, incluso, se superaron esos flujos habituales. Entre octubre del 2021 y julio del 2023 el promedio mensual de pasajeros saliendo aumentó a 734.000 y, el de pasajeros llegando, a 696.000. Así, el promedio mensual de personas que no vuelven aumentó a 37.800. O, en otras palabras, 1.244 personas por día.</p>
+          <p>De esta manera, entre enero del 2019 y julio del año pasado, por los aeropuertos salieron de Colombia, para no regresar, 1'300.353 personas. Para febrero del 2020, el acumulado anual de personas que no regresaban era de 204.483 personas, pero para julio del 2023 se aumentó a 447.856 personas sin regresar al año. Marzo es el mes en el que resulta mayor la diferencia entre el número de personas que se van frente al de las personas que entran al país. Por ejemplo, en marzo del 2022 fueron 101.000 personas saliendo más que las que entraron al territorio.</p>
+          <p>Las tendencias que muestran la salida y entrada desde y hacia el país de personas por vía aérea dan una idea clara del comportamiento total. La razón es que casi la totalidad de la emigración es por avión. Es así como, en el 2022, las salidas por aeropuertos representaron el 97 por ciento del total. Quienes se van por tierra son solamente el 2,8 por ciento; por mar, el 0,1 por ciento, y por río, solo 2 de cada 100.000 salidas, de acuerdo con Migración Colombia.</p>
+          <p class="article-subtitle">La emigración ilegal</p>
+          <p>Y en cuanto a la emigración ilegal, un reciente informe de las autoridades migratorias estadounidenses da cuenta de los cerca de 170.000 colombianos que fueron detenidos cuando intentaban ingresar a dicho país. La cifra, récord histórico, corresponde solo al año fiscal 2023 y supera en 30 por ciento la del 2022. Y dista mucho de las casi 10.000 personas retenidas en 2021.</p>
+          <p>Ese volumen de connacionales intentando entrar a Estados Unidos sin los permisos legales, ubica a los colombianos como el grupo que más creció en cuanto a detenciones en estos últimos 24 meses con un salto del 1.700 por ciento, ubicándolos, además, como el quinto grupo con más migrantes detenidos ese año fiscal, después de los mexicanos, guatemaltecos, hondureños y cubanos.</p>
+          <p>La situación no parece mejorar. Solo en el primer mes del año fiscal del 2024 fueron retenidos 14.000 colombianos, número muy similar al que se registró en septiembre y que representa un salto considerable frente a las cifras de junio, julio y agosto cuando el flujo pareció reducirse.</p>
+          <p>La magnitud de la emigración desde Colombia al resto del mundo es tal, que el número de personas que salió y no regresó entre 2015 y 2022 se acerca a la oleada de migrantes venezolanos que recibió Colombia en el mismo periodo. En ese lapso, salieron del país, para no regresar, 1,4 millones de personas. Mientras tanto, de acuerdo con cifras publicadas por la Organización para la Cooperación y el Desarrollo Económicos (Ocde) entraban 1'725.000 personas desde Venezuela, huyendo de la crisis humanitaria en medio del régimen de ese país. En el 2015, los venezolanos que vivían en Colombia eran 55.900 personas y el año pasado sumaron unos 1,78 millones.</p>
+          <p>Según Migración Colombia, de quienes salen por avión, el 92 por ciento se van por Bogotá, Medellín o Cali. Por el aeropuerto El Dorado, de la capital, se va el 64 por ciento; por el aeropuerto José María Córdova, de Rionegro y que sirve a Medellín, el 18 por ciento, y el 10 por ciento por el Alfonso Bonilla Aragón, de Palmira, que sirve a Cali.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
